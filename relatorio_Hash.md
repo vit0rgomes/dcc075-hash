@@ -53,7 +53,7 @@ Para superar limitações estruturais do SHA-2, o NIST padronizou o **SHA-3 (Kec
 
 ## 3) Código Simples de Hash (XOR Bloco a Bloco com Rotação)
 
-O arquivo [`hash_simples.py`](hash_simples.py) implementa uma função de hash de 32 bits utilizando preenchimento de blocos, operação **XOR bloco a bloco** e **rotação circular de bits à esquerda (`rotl32`)** para evitar que blocos idênticos se anulem ($A \oplus A = 0$).
+O arquivo [`hash_simples.py`](file:///c:/Users/vitin/OneDrive/Documentos/ufjf/cc_integral/DCC075-Seguranca-de-sistemas/09-Hash/hash_simples.py) implementa uma função de hash de 32 bits utilizando preenchimento de blocos, operação **XOR bloco a bloco** e **rotação circular de bits à esquerda (`rotl32`)** para evitar que blocos idênticos se anulem ($A \oplus A = 0$).
 
 ### Saída da Execução:
 ```text
